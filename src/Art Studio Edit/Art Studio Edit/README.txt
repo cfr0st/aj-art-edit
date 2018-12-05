@@ -43,14 +43,13 @@
                   .:i7LJYJcc7Lrri:::::,:,:,,.:rJt2JUjULL77Y1UfUFJ7r.,:,,,Jr
                            ...,.rti::,:,:,:,,..   rh1c7rLUhUtjf2Jr,.:,:,c7.
 
-Like the software? Consider tipping me in Monero (XMR): 49JFa3bFRSLZWR7Vi4aXtyfsSJ2KzEuoiF4a5fMoVfhFZe8db8NbCpEh7ao293JmEH5YcH7bcDSAC4M9ToFWUCYhP8pWxpp
 Have any ideas on my next project? Contact me on GitHub @cfr0st
   
 1. !Important! This program requires installing WinPcap, which can
 	be found here: https://www.winpcap.org/install/ or in the
 	root release file directory as "WinPcap_4_1_3.exe".
 
-2. Start "Art Studio Liberator.exe"
+2. Start "Art Studio Edit.exe"
 
 3. Press "Get UUID" and log in to Animal Jam, this will
    monitor the network to capture the UUID while logging in.
