@@ -62,4 +62,4 @@ Create an AMF object:
 Compress this file using zlib compression, and then encrypt the file using the initialization vector and key bytes calculated above. With this you can now load your custom artwork into the AJ Art Studio.
 
 #### Final:
-And thus we have made .ajart and .ajgart files interoperable with essentially all image editors, and can even import images of multiple different types (jpg/jpeg, png, gif, etc).
+And thus we have made .ajart and .ajgart files interoperable with essentially all image editors, and can even import images of multiple different types (jpg/jpeg, png, gif, etc). The final note I would like to give is that there is some arbitrary file size limit (around 512kb), so if it doesn't work and it's a larger file you may need to compress the image by saving it as a jpg/jpeg + adjust the compression / quality.
