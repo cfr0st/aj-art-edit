@@ -12,7 +12,7 @@ For an explanation on how exactly this was done:
 [Research Process.md](https://github.com/cfr0st/aj-art-edit/blob/master/Research%20Process.md)
 
 ### An Implemented Example:
-![Example](images/ajart_studio_edit_rev1.0.jpg)
+![Program](images/ajart_studio_edit_rev1.0.jpg)
 A full code implementation is located in the [src](https://github.com/cfr0st/aj-art-edit/tree/master/src/Art%20Studio%20Liberator) directory, and a barebones console implementation of decoding .ajart / .ajgart files is located in the [experimental-decode](https://github.com/cfr0st/aj-art-edit/tree/master/experimental-decode/ajart-decoder) directory.
 
 # Legal Stuff:
