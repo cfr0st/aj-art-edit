@@ -1,7 +1,7 @@
 # .ajart / .ajgart file format specifications:
-This serves as documentation of the .ajart / .ajgart file format from the online video game "Animal Jam", a proprietary format used by the game to store and load the artwork users create. The purpose of such a project is for multiple factors including criticism, comment, teaching, research, and interoperability.
+This serves as documentation of the .ajart / .ajgart file format from the online video game "Animal Jam", a proprietary format used by the game to store and load the artwork users create. The purpose of such a project is for multiple factors including criticism, comment, teaching, research, and interoperability. I used Visual Studio 2017 and created a WinForms projects using C# 4.6.2 as the demonstration of this knowledge.
 
-You may have seen me around before when I initially made posts about this months ago (as cfr0st), but I didn't go into nearly the detail this repository will hold. As well as that I'm also publishing the code for people to run through. I used Visual Studio 2017 and created a WinForms projects using C# 4.6.2
+![Example](images/art_edit_demo.jpg)
 
 ### Technical File Format Overview:
 For a technical overview of the .ajart / .ajgart file format:
@@ -12,6 +12,7 @@ For an explanation on how exactly this was done:
 [Research Process.md](https://github.com/cfr0st/aj-art-edit/blob/master/Research%20Process.md)
 
 ### An Implemented Example:
+![Example](images/ajart_studio_edit_rev1.0.jpg)
 A full code implementation is located in the [src](https://github.com/cfr0st/aj-art-edit/tree/master/src/Art%20Studio%20Liberator) directory, and a barebones console implementation of decoding .ajart / .ajgart files is located in the [experimental-decode](https://github.com/cfr0st/aj-art-edit/tree/master/experimental-decode/ajart-decoder) directory.
 
 # Legal Stuff:
