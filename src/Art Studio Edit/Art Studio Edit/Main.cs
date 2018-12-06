@@ -37,8 +37,8 @@ namespace Art_Studio_Edit
             NAudio.Wave.WaveStream pcm = NAudio.Wave.WaveFormatConversionStream.CreatePcmStream(new NAudio.Wave.Mp3FileReader(mp3file));
             NAudio.Wave.BlockAlignReductionStream stream = new NAudio.Wave.BlockAlignReductionStream(pcm);
             NAudio.Wave.DirectSoundOut output = new NAudio.Wave.DirectSoundOut(700); //audio latency (to stop crackling)
+            output.PlaybackStopped += (pbss, pbse) => {  System.Threading.Thread.Sleep(1000); stream.Position = 0; output.Play(); };
             output.Init(stream);
-            output.PlaybackStopped += (pbss, pbse) => { new Thread(() => { System.Threading.Thread.Sleep(1000); stream.Position = 0; output.Play(); }).Start(); };
             output.Play();
             /////////////////////////////////////////////////////////////////////////
 
