@@ -5,14 +5,14 @@ You may have seen me around before when I initially made posts about this months
 
 ### Technical File Format Overview:
 For a technical overview of the .ajart / .ajgart file format:
-[File Format.md](https://github.com/cfr0st/ajart-file-format/blob/master/File%20Format.md)
+[File Format.md](https://github.com/cfr0st/aj-art-edit/blob/master/File%20Format.md)
 
 ### The Research Itself:
 For an explanation on how exactly this was done:
-[Research Process.md](https://github.com/cfr0st/ajart-file-format/blob/master/Research%20Process.md)
+[Research Process.md](https://github.com/cfr0st/aj-art-edit/blob/master/Research%20Process.md)
 
 ### An Implemented Example:
-A full code implementation is located in the [src](https://github.com/cfr0st/ajart-file-format/tree/master/src/Art%20Studio%20Liberator) directory, and a barebones console implementation of decoding .ajart / .ajgart files is located in the [experimental-decode](https://github.com/cfr0st/ajart-file-format/tree/master/experimental-decode/ajart-decoder) directory.
+A full code implementation is located in the [src](https://github.com/cfr0st/aj-art-edit/tree/master/src/Art%20Studio%20Liberator) directory, and a barebones console implementation of decoding .ajart / .ajgart files is located in the [experimental-decode](https://github.com/cfr0st/aj-art-edit/tree/master/experimental-decode/ajart-decoder) directory.
 
 # Legal Stuff:
 In the U.S., Section 103(f) of the Digital Millennium Copyright Act (DMCA) (17 USC § 1201 (f) - Reverse Engineering) states that it is legal to reverse engineer and circumvent protections to achieve interoperability between computer programs (such as information transfer between applications). https://www.eff.org/issues/coders/reverse-engineering-faq
